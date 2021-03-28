@@ -41,8 +41,24 @@
 
 .header__link {
   text-decoration: none;
+}
+
+.header__link:link {
   color: #2f80ed;
 }
+
+.header__link:visited {
+  color: #808080;
+}
+
+.header__link:hover {
+  color: cadetblue;
+}
+
+.header__link:active {
+  color: aqua;
+}
+
 
 .header__main-illustration {
   background-image: url(../images/header-image.png);
@@ -217,10 +233,25 @@
   line-height: 51px;
   font-weight: normal;
   position: absolute;
-  color: #2f80ed;
   right: 48px;
   top: 50%;
   text-decoration: none;
+}
+
+.feynman__link:link {
+  color: #2f80ed;
+}
+
+.feynman__link:visited {
+  color: #808080;
+}
+
+.feynman__link:hover {
+  color: cadetblue;
+}
+
+.feynman__link:active {
+  color: aqua;
 }
 
 .kaufman {
@@ -309,9 +340,25 @@
 
 .footer__column-heading {
   font-weight: bold;
-  color: white;
   margin-top: 0;
   margin-bottom: 0;
+  text-decoration: none;
+}
+
+.footer__column-heading:link {
+  color: white;
+}
+
+.footer__column-heading:visited {
+  color: #808080;
+}
+
+.footer__column-heading:hover {
+  color: cadetblue;
+}
+
+.footer__column-heading:active {
+  color: aqua;
 }
 
 .footer__column-links {
@@ -324,7 +371,22 @@
 .footer__colimn-link {
   font-weight: normal;
   text-decoration: none;
+}
+
+.footer__colimn-link:link {
   color: white;
+}
+
+.footer__colimn-link:visited {
+  color: #808080;
+}
+
+.footer__colimn-link:hover {
+  color: cadetblue;
+}
+
+.footer__colimn-link:active {
+  color: aqua;
 }
 
 .footer__social-icon {
@@ -335,4 +397,3 @@
   background-image: url(../images/logo_place_footer.svg);
   height: 35px;
 }
-
