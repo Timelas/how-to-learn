@@ -21,7 +21,7 @@
   line-height: 96px;
   flex-direction: row;
   align-self: center;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   width: 730px;
   z-index: 4;
 }
@@ -175,6 +175,7 @@
   margin: auto;
   justify-content: space-between;
   padding-left: 0;
+  list-style: none;
 }
 
 .table__cell {
@@ -366,6 +367,7 @@
   flex-direction: column;
   margin: 20px 0 16px;
   padding-left: 0;
+  list-style: none;
 }
 
 .footer__colimn-link {
