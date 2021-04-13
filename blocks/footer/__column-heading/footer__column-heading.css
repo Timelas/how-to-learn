@@ -1,0 +1,23 @@
+.footer__column-heading {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.footer__column-heading:link {
+  color: white;
+}
+
+.footer__column-heading:visited {
+  color: #808080;
+}
+
+.footer__column-heading:hover {
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+}
+
+.footer__column-heading:active {
+  color: aqua;
+}
