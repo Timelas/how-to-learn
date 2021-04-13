@@ -1,0 +1,21 @@
+.footer__colimn-link {
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.footer__colimn-link:link {
+  color: white;
+}
+
+.footer__colimn-link:visited {
+  color: #808080;
+}
+
+.footer__colimn-link:hover {
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+}
+
+.footer__colimn-link:active {
+  color: aqua;
+}
